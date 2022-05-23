@@ -23,7 +23,7 @@ extra_ci = [
 ]
 
 setup(
-    name='specialized_vader',
+    name='Progetto Colab',
     version=1.0,
     description='Pacchetto contentente 4 dizionari che fungono da miglioramento di Vader per argomanti specifici, quali recensioni di cibi, finanza, recensioni Disneyland e recensioni di prodotti elettronici. Il pacchetto è creato a partire da quello cjhutto (https://github.com/cjhutto/vaderSentiment)',
 
