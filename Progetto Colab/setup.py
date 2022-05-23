@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
 
-from my_pip_package import __version__
-
 extra_math = [
     'returns-decorator',
 ]
@@ -26,12 +24,15 @@ extra_ci = [
 
 setup(
     name='specialized_vader',
-    version=__version__,
-    description='prova prova',
+    version=1.0,
+    description='Pacchetto contentente 4 dizionari che fungono da miglioramento di Vader per argomanti specifici, quali recensioni di cibi, finanza, recensioni Disneyland e recensioni di prodotti elettronici. Il pacchetto è creato a partire da quello cjhutto (https://github.com/cjhutto/vaderSentiment)',
 
     url='https://github.com/MichaelKim0407/tutorial-pip-package',
-    author='Vittorio Haardt',
-    author_email='vittoriohaardt@gmail.com',
+    author='Vittorio Haardt, Luca Porcelli, Riccardo Fossato',
+    author_email='vittoriohaardt@gmail.com, l.porcelli@campus.unimib.it, r.fossato@campus.unimib.it',
+    keywords = ['vader', 'sentiment', 'analysis', 'opinion', 'mining', 'nlp', 'text', 'data',
+              'text analysis', 'opinion analysis', 'sentiment analysis', 'text mining', 'twitter sentiment',
+              'opinion mining', 'social media', 'twitter', 'social', 'media'],
 
     packages=find_packages(),
 
@@ -44,12 +45,6 @@ setup(
         'dev': extra_dev,
 
         'ci': extra_ci,
-    },
-
-    entry_points={
-        'console_scripts': [
-            'add=my_pip_package.math:cmd_add',
-        ],
     },
 
     classifiers=[
