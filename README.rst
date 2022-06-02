@@ -507,7 +507,7 @@ siano pensate come parti distinte di un unico processo. Ovviamente, come
 gi`a precisato, lo studio fatto non ha lo scopo di essere in nessun modo
 deﬁnitivo, bens`ı vuole fungere come punto di partenza e ispirazione.
 
-\`E stata creata quindi una funzione che ricevendo un testo qualsiasi
+É stata creata quindi una funzione che ricevendo un testo qualsiasi
 (ovviamente limitandoci ai nostri quattro argomenti) sia in grado di
 riconoscerne con precisione l’argomento e quindi aﬃdare una sentiment
 analysis, che produca un punteggio di compund, al dizionario adeguato
@@ -519,7 +519,7 @@ generale, portando ad analisi poco aﬃdabili per testi riguardanti
 argomenti speciﬁci e che quindi hanno un linguaggio speciﬁco.
 
 
-   **7** **Un nuovo package Python: ”vadernew”**
+**7** **Un nuovo package Python: ”vadernew”**
 
 In questa sezione viene presentato velocemente il pacchetto introdotto
 frutto delle analisi fatte. ”vadernew”`e utilizzabile per analisi sui
@@ -527,7 +527,7 @@ testi per gli argomenti sopra riportati. Le analisi utilizzanti questo
 pacchetto al posto di Vader, come spiegato in precedenza, saranno pi`u
 precise ed aﬃdabili.
 
-   Si inizia installando il pacchetto ”vadernew” tramite pip install
+Si inizia installando il pacchetto ”vadernew” tramite pip install
 
    In [1]: ! pip install vadernew
 
@@ -555,8 +555,8 @@ precise ed aﬃdabili.
    | Installing collected packages: vadernew
    | Successfully installed vadernew-2.0
 
-   Nel pacchetto sono contenuti separatamente i dizionari e le funzioni
-   relative ai 4 argomenti, importabili singolarmente.
+Nel pacchetto sono contenuti separatamente i dizionari e le funzioni
+relative ai 4 argomenti, importabili singolarmente.
 
    In [2]: from vadernew import vader_food
 
@@ -566,18 +566,18 @@ precise ed aﬃdabili.
 
    In [5]: from vadernew import vader_finance
 
-   Di fatto le funzioni contenute non variano da quelle di Vader fatto
-   da cjhutto, per le quali si invita a guardare la pagina GitHub
-   relativa. Il cambiamento apportato riguarda i dizionari utilizzati,
-   ovvero quelli prodotti dallo studio fatto e speciﬁci per gli
-   argomenti. Menzioniamo in partilcolare due funzioni ripetibili per
-   ogni argomento.
+Di fatto le funzioni contenute non variano da quelle di Vader fatto
+da cjhutto, per le quali si invita a guardare la pagina GitHub
+relativa. Il cambiamento apportato riguarda i dizionari utilizzati,
+ovvero quelli prodotti dallo studio fatto e speciﬁci per gli
+argomenti. Menzioniamo in partilcolare due funzioni ripetibili per
+ogni argomento.
 
-   Ovvero due funzioni sostitutive, rispettivamente di SentiText() la
-   quale identiﬁca le propriet`a a livello di stringa rilevanti per il
-   sentiment del testo di input, e SentimentIntensityAnalyzer() che
-   invece assegna un punteggio di intensit`a del sentimento alle frasi.
-   Le due funzioni sono rinominate per ogni argomento.
+Ovvero due funzioni sostitutive, rispettivamente di SentiText() la
+quale identiﬁca le propriet`a a livello di stringa rilevanti per il
+sentiment del testo di input, e SentimentIntensityAnalyzer() che
+invece assegna un punteggio di intensit`a del sentimento alle frasi.
+Le due funzioni sono rinominate per ogni argomento.
 
    In [6]: from vadernew.vader_food import Food_ST, Food_SIA
 
@@ -587,18 +587,18 @@ precise ed aﬃdabili.
 
    In [9]: from vadernew.vader_finance import Finance_ST, Finance_SIA
 
-   Per il funzionamento delle funzioni ST si invita a guardare la guida
-   di Vader classico per SentiText(), dato che non sono il punto dei
-   cambiamenti apportati.
+Per il funzionamento delle funzioni ST si invita a guardare la guida
+di Vader classico per SentiText(), dato che non sono il punto dei
+cambiamenti apportati.
 
-   Ora vediamo il funzionamento delle funzioni SIA e come con una sua
-   sotto funzione troviamo i valori dicompund. I valori che si ottengono
-   sono pi`u accurati, dato che fanno riferimento ai dizionari speciﬁci.
-   Per tutte le sotto funzioni chiamabili si fa sempre riferimento alla
-   guida di VaderSentiment, ricordiamo che il funzionamento del
-   pacchetto vadernew \`e in tutto e per tutto lo stesso di quello di
-   VaderSentiment, l’unico cambiamento \`e la speciﬁcit`a dei dizionari
-   utilizzati.
+Ora vediamo il funzionamento delle funzioni SIA e come con una sua
+sotto funzione troviamo i valori dicompund. I valori che si ottengono
+sono pi`u accurati, dato che fanno riferimento ai dizionari speciﬁci.
+Per tutte le sotto funzioni chiamabili si fa sempre riferimento alla
+guida di VaderSentiment, ricordiamo che il funzionamento del
+pacchetto vadernew \`e in tutto e per tutto lo stesso di quello di
+VaderSentiment, l’unico cambiamento \`e la speciﬁcit`a dei dizionari
+utilizzati.
 
    In [11]: sentence = "Just an example"
    analyzer = vader_finance.Finance_SIA() 
@@ -608,17 +608,17 @@ precise ed aﬃdabili.
    Out [11]:Just an example *{*\ ’neg’: 0.0, ’neu’: 0.286, ’pos’: 0.714,
    ’compound’: 0.7184\ *}*
 
-   Inconclusione si invita a provare e sperimentare le potenzialit`a del
-   pacchetto, il quale, si ricorda ancora una volta, funge solamente da
-   showcase di come una specializzazione di VaderSentiment conduca ad
-   analisi pi`u accurate.
+Inconclusione si invita a provare e sperimentare le potenzialit`a del
+pacchetto, il quale, si ricorda ancora una volta, funge solamente da
+showcase di come una specializzazione di VaderSentiment conduca ad
+analisi pi`u accurate.
 
-   **8** **Conclusioni**
+**8** **Conclusioni**
 
 Prendendo in rassegna tutti i passaggi del progetto, abbiamo visto come,
 da risultati attesi, apportare modiﬁche al ﬁne di specializzare Vader su
 argomenti di discussione porti solamente a miglioramenti. In generale
-\`e doveroso sottolineare il risultato osservato nelle sezioni 4.4 e
+è doveroso sottolineare il risultato osservato nelle sezioni 4.4 e
 4.5, secondo il quale, indipendentemente dai metodi di assegnazione dei
 pesi e dai modelli utilizzati per assegnarli, Vader risulti sempre
 peggiore rispetto alle sue versioni specializzate. Questo risultato
@@ -626,18 +626,18 @@ porta alla conclusione per cui Vader nonostante sia stato un sistema
 innovativo ed estremamente e�cace, ormai \`e facilmente superabile, o
 per meglio dire migliorabile.
 
-   Come conclusione si invita a cogliere l’input proposto da questo
-   progetto, ovvero lo sviluppo, partendoda Vader di un sistema che
-   riesca ad identiﬁcare l’argomento di discussione testo per testo,
-   frase per frase e che utilizzi dei dizionari specializzati al ﬁne di
-   avere analisi performanti ed accurate.
+Come conclusione si invita a cogliere l’input proposto da questo
+progetto, ovvero lo sviluppo, partendoda Vader di un sistema che
+riesca ad identiﬁcare l’argomento di discussione testo per testo,
+frase per frase e che utilizzi dei dizionari specializzati al ﬁne di
+avere analisi performanti ed accurate.
 
-   Come ultima nota consigliamo, a chiunque abbia intenzione di
-   applicare delle analisi testuali, come unasentiment analisi, su dei
-   testi di cui si conosce gi`a in partenza l’argomento di discussione,
-   di prendere dei dataset con le caratteristiche simili a quelle viste
-   in precedenza e di addestrare un dizionario specializzato per
-   l’argomento. Il dizionario risultante, utilizzato come illustrato nel
-   progetto, indipendentemente dall’attenzione riposta per la scelta dei
-   modelli e dell’assegnazione dei pesi, dovrebbe comunque risultare
-   pi`u performante di quello generale utilizzato da Vader.
+Come ultima nota consigliamo, a chiunque abbia intenzione di
+applicare delle analisi testuali, come unasentiment analisi, su dei
+testi di cui si conosce gi`a in partenza l’argomento di discussione,
+di prendere dei dataset con le caratteristiche simili a quelle viste
+in precedenza e di addestrare un dizionario specializzato per
+l’argomento. Il dizionario risultante, utilizzato come illustrato nel
+progetto, indipendentemente dall’attenzione riposta per la scelta dei
+modelli e dell’assegnazione dei pesi, dovrebbe comunque risultare
+pi`u performante di quello generale utilizzato da Vader.
