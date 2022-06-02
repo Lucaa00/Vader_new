@@ -68,7 +68,7 @@ si necessiti di modelli pi`u complessi o addirittura di interventi
 manuali per ottenere dizionari specializzati.
 
 
-   **1.1** **Vader**
+**1.1** **Vader**
 
    Per poter partire da una base autorevole e consolidata, si \`e scelto
    di utilizzare il tool , ovvero il tool rule-based per la sentiment
@@ -77,7 +77,7 @@ manuali per ottenere dizionari specializzati.
    seconda dell’argomento trattato, in modo da specializzarsi il pi`u
    possibile.
 
-   **1.2** **Lime**
+**1.2** **Lime**
 
    Crediamo fortemente che l’expleinability del progetto vada messa in
    primo piano, con un doppio scopo. Il primo \`e quello di comprensione da
@@ -87,7 +87,7 @@ manuali per ottenere dizionari specializzati.
    classiﬁcati e valutati. Per la parte di XAI verr`a utilizzato per la sua
    semplicit`a ed intuibilitá.
 
-   **1.3** **PyPi**
+**1.3** **PyPi**
 
    Poich´e il progetto ha una prospettiva di funzionamento reale si \`e
    scelto di pubblicare il progetto su per rendere il pacchetto Python
