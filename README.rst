@@ -67,7 +67,6 @@ disatteso, si arriverebbe all’interessante conclusione secondo la quale
 si necessiti di modelli pi`u complessi o addirittura di interventi
 manuali per ottenere dizionari specializzati.
 
-1
 
    **1.1** **Vader**
 
