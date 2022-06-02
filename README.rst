@@ -295,8 +295,8 @@ punteggio     -4               4
 
 ..
 
-   Inﬁne il terzo metodo (metodo 3) \`e un incrocio dei primi due, come
-   visibile di seguito.
+Inﬁne il terzo metodo (metodo 3) \`e un incrocio dei primi due, come
+visibile di seguito.
 
 ========== ================ ======== ============= ========
 coeﬃciente *≤ −*\ 0\ *.*\ 5 *≤ −*\ 1 *≥* 0\ *.*\ 5    *≥* 1
