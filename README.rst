@@ -97,7 +97,7 @@ manuali per ottenere dizionari specializzati.
    cui proviene. I dettagli del funzionamento verranno esplicitati in
    una sezione apposita pi`u avanti.
 
-   **2** **Dati**
+**2** **Dati**
 
 I dati utilizzati provengono da diversi dataset provenienti dalla
 nota piattaforma . Per ogni argomento sono stati selezionati dei
