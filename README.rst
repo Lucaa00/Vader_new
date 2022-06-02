@@ -625,7 +625,7 @@ argomenti di discussione porti solamente a miglioramenti. In generale
 pesi e dai modelli utilizzati per assegnarli, Vader risulti sempre
 peggiore rispetto alle sue versioni specializzate. Questo risultato
 porta alla conclusione per cui Vader nonostante sia stato un sistema
-innovativo ed estremamente e�cace, ormai \`e facilmente superabile, o
+innovativo ed estremamente efficace, ormai \`e facilmente superabile, o
 per meglio dire migliorabile.
 
 Come conclusione si invita a cogliere l’input proposto da questo
