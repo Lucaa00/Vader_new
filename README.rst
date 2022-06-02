@@ -80,13 +80,13 @@ manuali per ottenere dizionari specializzati.
 
    **1.2** **Lime**
 
-Crediamo fortemente che l’expleinability del progetto vada messa in
-primo piano, con un doppio scopo. Il primo \`e quello di comprensione da
-parte degli sviluppatori dei problemi altrimenti non visibili. Il
-secondo \`e quello di poter fornire una trasparenza tale da poter far
-comprendere all’ipotetico utilizzatore del sistema come i testi vengono
-classiﬁcati e valutati. Per la parte di XAI verr`a utilizzato per la sua
-semplicit`a ed intuibilit`a.
+   Crediamo fortemente che l’expleinability del progetto vada messa in
+   primo piano, con un doppio scopo. Il primo \`e quello di comprensione da
+   parte degli sviluppatori dei problemi altrimenti non visibili. Il
+   secondo \`e quello di poter fornire una trasparenza tale da poter far
+   comprendere all’ipotetico utilizzatore del sistema come i testi vengono
+   classiﬁcati e valutati. Per la parte di XAI verr`a utilizzato per la sua
+   semplicit`a ed intuibilitá.
 
    **1.3** **PyPi**
 
