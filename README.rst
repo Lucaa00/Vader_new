@@ -600,9 +600,12 @@ pacchetto vadernew \`e in tutto e per tutto lo stesso di quello di
 VaderSentiment, l’unico cambiamento \`e la speciﬁcit`a dei dizionari
 utilizzati.
 
-   In [11]: sentence = "Just an example" \n
-   analyzer = vader_finance.Finance_SIA() \n
-   vs =analyzer.polarity_scores(sentence) \n
+   In [11]: sentence = "Just an example" 
+   
+   analyzer = vader_finance.Finance_SIA() 
+   
+   vs =analyzer.polarity_scores(sentence) 
+   
    print("*{*:<13\ *} {}*".format(sentence, str(vs))
 
    Out [11]:Just an example *{*\ ’neg’: 0.0, ’neu’: 0.286, ’pos’: 0.714, ’compound’: 0.7184\ *}*
