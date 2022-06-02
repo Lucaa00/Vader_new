@@ -128,84 +128,40 @@ ora gli argomenti nel dettaglio.
 **Argomenti**
 
    1. *Food*
+   Il dataset contiene review di prodotti alimentari, lasciate dai consumatori
+   sul sito di Amazon, con un relativo ranking che spazia da 1 a 5. 
+   Per la creazione della label sono state considerate le review con punteggio
+   1 o 2 come "Negative", quelle con 4 o5 come "Positive". 
+   Quelle con punteggio 3 sono state scartate poiché non di interesse per 
+   l'analisi, è stato considerato 3 un voto troppo volatile 
+   che rischia di raggruppare in una teorica categoria "Neutral" recensioni 
+   positive e negative, andando di fatto ad indebolire l'analisi.
 
-2. *Electronics*
-
-+-------------------------------+-------------------------------+---+
-|    | Amazon Fine Food Reviews |    | Amazon Reviews 2018 -    |   |
-|    | Il dataset contiene      |      Electronics              |   |
-|      review di prodotti       |    | Il dataset contiene      |   |
-|      alimentari, lasciate dai |      review di prodotti       |   |
-|      consumatori sul sito di  |      elettronici, lasciate    |   |
-|      Amazon, con un relativo  |      dai consumatori sul sito |   |
-|      ranking che spazia da 1  |      di Amazon, con un        |   |
-|      a 5. Per la creazione    |      relativo ranking che     |   |
-|      della label sono state   |      spazia da 1 a 5. Per la  |   |
-|      considerate le review    |      creazione di label sono  |   |
-|      con punteggio 1 o 2 come |      state considerate le     |   |
-|      ”Negative”, quelle       |      review con punteggio 1 o |   |
-|                               |      2 come ”Negative”,       |   |
-|                               |      quelle con 4 o 5 come    |   |
-|                               |      ”Positive”. Le review    |   |
-|                               |      con punteggio 3 sono     |   |
-|                               |      state scartate per       |   |
-|                               |      motivi analoghi a quelli |   |
-|                               |      mostrati per il dataset  |   |
-|                               |      precedente.              |   |
-+===============================+===============================+===+
-|    con 4 o 5 come ”Positive”. | Quelle con punteg             |   |
-+-------------------------------+-------------------------------+---+
-|    gio 3 sono state scartate  |                               |   |
-|    poich´e non di interesse   |                               |   |
-|    per l’analisi, \`e stato   |                               |   |
-|    considerato 3 un voto      |                               |   |
-|    troppo volatile che        |                               |   |
-|    rischia di raggruppare in  |                               |   |
-|    una teorica categoria      |                               |   |
-|    ”Neutral” recensioni       |                               |   |
-|    positive e negative,       |                               |   |
-|    andando di fatto ad        |                               |   |
-|    indebolire l’analisi.      |                               |   |
-+-------------------------------+-------------------------------+---+
-
-2
+   2. *Electronics*
+   Il dataset contiene review di prodotti elettronici, lasciate dai consumatori 
+   sul sito di Amazon, con un relativo ranking che spazia da 1 a 5. 
+   Per la creazione di label sono state considerate le review con punteggio 1 o 
+   2 come "Negative", quelle con 4 o 5 come "Positive".
+   Le review con punteggio 3 sono state scartate per motivi analoghi a quelli 
+   mostrati per il dataset precedente.
 
    3. *Disneyland*
+   Il dataset contiene review dei tre famosi parchi di divertimento di 
+   Disneyland, ovvero quelli di Parigi, della California e di Hong Kong. 
+   Le review sono state lasciate dai clienti sul sito di recensioni Trip Advisor,
+   con un relativo ranking che spazia da punteggi di 1 a 5. Per la creazione 
+   di label sono state considerate le review con punteggio 1 o 2 come "Negative",
+   quelle con 4 o 5 come "Positive". Le review con punteggio 3 sono state 
+   scartate per motivi analoghi ai dataset precedenti.
 
-4. *Finance*
+   4. *Finance*
+   Il dataset contiene review e tweet riguardanti argomenti finanziari, 
+   il dataset completo è stato ottenuto unendo i tre dataset riportati sopra.
+   Tutti e tre i dataset sono già dotati di una label che ne indica 
+   la positività o la negatività. 
 
-+-------------------------------+-------------------------------+---+
-|    | Disneyland Reviews       |    | Financial Sentiment      |   |
-|    | Il dataset contiene      |      Analysis                 |   |
-|      review dei tre famosi    |    | Sentiment Analysis for   |   |
-|      parchi di divertimento   |      Financial News           |   |
-|      di Disneyland, ovvero    |    | Finance                  |   |
-|      quelli di Parigi, della  |    | Il dataset contiene      |   |
-|      California e di Hong     |      review e tweet           |   |
-|      Kong. Le review sono     |      riguardanti argomenti    |   |
-|      state lasciate dai       |      ﬁnanziari, il dataset    |   |
-|      clienti sul sito di      |      completo \`e stato       |   |
-|      recensioni Trip Advisor, |      ottenuto unendo i tre    |   |
-|      con un relativo ranking  |      dataset riportati sopra. |   |
-|      che spazia               |      Tutti e tre i dataset    |   |
-|                               |      sono gi`a dotati di una  |   |
-|                               |      label che ne indica la   |   |
-|                               |      positivit`a o la         |   |
-|                               |      negativit`a.             |   |
-+===============================+===============================+===+
-|    da punteggi di 1 a 5.      | Per la creazione di label     |   |
-+-------------------------------+-------------------------------+---+
-|    sono state considerate le  |                               |   |
-|    review con punteggio 1 o 2 |                               |   |
-|    come ”Negative”, quelle    |                               |   |
-|    con 4 o 5 come ”Positive”. |                               |   |
-|    Le review con punteggio 3  |                               |   |
-|    sono state scartate per    |                               |   |
-|    motivi analoghi ai dataset |                               |   |
-|    precedenti.                |                               |   |
-+-------------------------------+-------------------------------+---+
 
-Si \`e cercato di selezionare argomenti il pi`u possibile eterogenei. I
+Si é cercato di selezionare argomenti il più possibile eterogenei. I
 dataset selezionati ovviamente non forniscono una visuale completa
 dell’argomento. Il lavoro svolto non vuole essere deﬁnitivo ma vuole
 essere un punto di partenza per poter sviluppare idee in senso di
