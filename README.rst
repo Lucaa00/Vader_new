@@ -218,8 +218,6 @@ Essendo state scelte solamente 2000 parole, saranno presenti, in questa
 fase, testi con peso 0 dato che non contengono nessuna delle parole
 selezionate.
 
-3
-
 **4.2** **Descrizione modello e modello surrogato**
 
 Al ﬁne di avere delle performance migliori e ridurre l’overﬁtting sui
@@ -317,9 +315,7 @@ selezionare solamente le parole con valori”estremi” ovvero maggiori di
 0.6 e minori di -0.6, alle quali si \`e applicato un peso
 rispettivamente di 4 e -4.
 
-4
-
-Si \`e osservato che tra le tre alternative proposte il metodo 1 e il
+Si é osservato che tra le tre alternative proposte il metodo 1 e il
 metodo 2 fossero preferibili al metodo 3. Non essendoci diﬀerenze
 signiﬁcative tra i metodi fatta eccezione che per il dataset riguardante
 l’argomento Food, si \`e scelto di usare il metodo 2. Si possono
@@ -385,7 +381,7 @@ precise su argomenti sempre pi`u capillari.
 
 **4.5** **Word embedding e confronto con modello precedente**
 
-Si \`e scelto di valutare se l’utilizzo di un *word embedding* potesse
+Si é scelto di valutare se l’utilizzo di un *word embedding* potesse
 ulteriormente far crescere le performance dei V.N. rispetto alla loro
 forma classica. Sono state valutate due alternative chiamate
 rispettivamente *Vader New four* e *Vader New one change*.
@@ -403,8 +399,6 @@ cambiare il peso in maniera analoga a *V.N. four*, ma cambia i pesi
 sommando o sottraendo 1 rispetto al valore che queste parole hanno in
 Vader, in base al valore positivo o negativo delle parole a cui sono
 state associate.
-
-5
 
 Come riportato dalla tabella (Table 4) si osservano le performance dei
 vari metodi di V.N., per scegliere la metodologia pi`u appropriata per
@@ -478,12 +472,10 @@ metriche. Osservando le performance, il modello vincente \`e risultato
 il *Naive Bayes*, con un livello di accuracy di 0.95 (rispetto ad un
 0.88 per l’albero). Dunque la classiﬁcazione multitarget
 
-6
-
 con il ﬁne di individuare l’argomento di discussione sar`a appunto
 aﬃdata al *Naive Bayes* con i parametri precedentemente selezionati.
 
-´E tuttavia necessario precisare che questo modello risulti ottimale per
+É tuttavia necessario precisare che questo modello risulti ottimale per
 questo tipo di classiﬁcazione di solamente quattro argomenti. Nel caso
 di sistemi di classiﬁcazione di argomenti di discussione pi`u ampi con
 numeri di alternative di target estremamente maggiori, il modello
