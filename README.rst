@@ -99,31 +99,31 @@ manuali per ottenere dizionari specializzati.
 
    **2** **Dati**
 
-   I dati utilizzati provengono da diversi dataset provenienti dalla
-   nota piattaforma . Per ogni argomento sono stati selezionati dei
-   dataset separati e speciﬁci. In linea generale i dataset sono delle
-   review fatte sui vari argomenti di discussione, questa tipologia di
-   testo risulta cruciale ai ﬁni dell’analisi per la creazione di
-   implementazioni per Vader. L’importanza \`e data dal fatto che \`e
-   possibile identiﬁcare la positivit`a e la negativit`a della sentiment
-   dei commenti basandosi sul voto ad essi associato, cosi da poter
-   attuare delle survey sensate. Procediamo ora alla rassegna delle
-   propriet`a dei dati usati.
+I dati utilizzati provengono da diversi dataset provenienti dalla
+nota piattaforma . Per ogni argomento sono stati selezionati dei
+dataset separati e speciﬁci. In linea generale i dataset sono delle
+review fatte sui vari argomenti di discussione, questa tipologia di
+testo risulta cruciale ai ﬁni dell’analisi per la creazione di
+implementazioni per Vader. L’importanza \`e data dal fatto che \`e
+possibile identiﬁcare la positivit`a e la negativit`a della sentiment
+dei commenti basandosi sul voto ad essi associato, cosi da poter
+attuare delle survey sensate. Procediamo ora alla rassegna delle
+propriet`a dei dati usati.
 
-   La parte di interesse dei dati scaricati sono i testi i quali,
-   verranno raggruppati sotto 4 argomenti (che vedremo a breve). Per
-   quanto riguarda il primo modello si utilizzeranno solamente i testi
-   relativi di volta in volta ad un argomento diverso e le relative
-   label ottenute dalle votazioni (verranno successivamente spiegate nel
-   dettaglio per ogni dataset). Invece il dataset per il secondo modello
-   si compone di una colonna ”testo”e una colonna target ”argomento”, e
-   comprende al suo interno un unione di tutti i quattro dataset.
+La parte di interesse dei dati scaricati sono i testi i quali,
+verranno raggruppati sotto 4 argomenti (che vedremo a breve). Per
+quanto riguarda il primo modello si utilizzeranno solamente i testi
+relativi di volta in volta ad un argomento diverso e le relative
+label ottenute dalle votazioni (verranno successivamente spiegate nel
+dettaglio per ogni dataset). Invece il dataset per il secondo modello
+si compone di una colonna ”testo”e una colonna target ”argomento”, e
+comprende al suo interno un unione di tutti i quattro dataset.
 
-   L’obbiettivo di partenza nella ricerca dei dati era di avere a
-   disposizione circa 40.000 righe per argomento. Di cui successivamente
-   il 50% viene utilizzato per la creazione dei dizionari specializzati
-   ed il restante viene usato per il modello di classiﬁcazione. Vediamo
-   ora gli argomenti nel dettaglio.
+L’obbiettivo di partenza nella ricerca dei dati era di avere a
+disposizione circa 40.000 righe per argomento. Di cui successivamente
+il 50% viene utilizzato per la creazione dei dizionari specializzati
+ed il restante viene usato per il modello di classiﬁcazione. Vediamo
+ora gli argomenti nel dettaglio.
 
 **Argomenti**
 
