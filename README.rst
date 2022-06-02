@@ -275,8 +275,8 @@ based. Sono state attuate diverse prove di metodologia per applicare i
 pesi al meglio, le strategie in questione comportano l’assegnazione di
 pesi da -4 a 4 a seconda dei valori dei coeﬃcienti relativi alle parole.
 
-   Il primo metodo (metodo 1) consiste nel assegnare punteggi a fasce,
-   come segue.
+Il primo metodo (metodo 1) consiste nel assegnare punteggi a fasce,
+come segue.
 
 +------------+----------+----------+------------------+---------------+-------+----------+
 | coeﬃciente | *≤ −*\ 2 | *≤ −*\ 1 | *≤ −*\ 0\ *.*\ 5 | *≥* 0\ *.*\ 5 | *≥* 1 |    *≥* 2 |
@@ -289,10 +289,8 @@ estremi, secondo come mostrato di seguito.
 
 ========== ================ ================
 coeﬃciente *≤ −*\ 0\ *.*\ 6    *≥* 0\ *.*\ 6
-                            
-              -4               4
 ========== ================ ================
-punteggio                   
+punteggio     -4               4
 ========== ================ ================
 
 ..
@@ -302,10 +300,8 @@ punteggio
 
 ========== ================ ======== ============= ========
 coeﬃciente *≤ −*\ 0\ *.*\ 5 *≤ −*\ 1 *≥* 0\ *.*\ 5    *≥* 1
-                                                   
-              -4               -3       3             4
 ========== ================ ======== ============= ========
-punteggio                                          
+punteggio      -4               -3       3             4
 ========== ================ ======== ============= ========
 
 Dopo queste prove per l’assegnazione di pesi si \`e optato per
@@ -320,9 +316,9 @@ l’argomento Food, si \`e scelto di usare il metodo 2. Si possono
 osservare dalla tabella (Table 2) i valori di adattamento.
 
 ======== =========== =========== =========== ==============
-Metodo 1 Food        Electoinic  Disneyland     Finance
+          Food        Electoinic  Disneyland     Finance
 ======== =========== =========== =========== ==============
-\        80.4%       82.3%       **83.8**\ %    **63.9**\ %
+Metodo 1  80.4%       82.3%       **83.8**\ %    **63.9**\ %
 Metodo 2 **86.9**\ % **83.0**\ % 83.3%          63.1%
 Metodo 3 81.3%       82.9%       83.7%          63.5%
 ======== =========== =========== =========== ==============
