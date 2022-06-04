@@ -316,11 +316,11 @@ l’argomento Food, si \`e scelto di usare il metodo 2. Si possono
 osservare dalla tabella (Table 2) i valori di adattamento.
 
 ======== =========== =========== =========== ==============
-       .   Food        Electoinic  Disneyland     Finance
+       . Food        Electoinic   Disneyland    Finance
 ======== =========== =========== =========== ==============
-Metodo 1  80.4%       82.3%       **83.8**\ %    **63.9**\ %
-Metodo 2 **86.9**\ % **83.0**\ % 83.3%          63.1%
-Metodo 3 81.3%       82.9%       83.7%          63.5%
+Metodo 1   80.4%        82.3%     **83.8%**    **63.9%**
+Metodo 2 **86.9%**    **83.0%**     83.3%        63.1%
+Metodo 3   81.3%        82.9%       83.7%        63.5%
 ======== =========== =========== =========== ==============
 
 ..
